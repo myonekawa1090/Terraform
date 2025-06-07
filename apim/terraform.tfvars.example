@@ -1,0 +1,6 @@
+resource_group_name = "my-apim-rg"
+location           = "japaneast"
+apim_name          = "my-apim-instance"
+publisher_name     = "My Company"
+publisher_email    = "admin@mycompany.com"
+sku_name           = "Developer_1" 

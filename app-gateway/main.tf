@@ -91,8 +91,8 @@ resource "azurerm_application_gateway" "appgw" {
   }
 
   frontend_ip_configuration {
-    name                 = "frontend-ip-config"
-    public_ip_address_id = azurerm_public_ip.appgw_pip.id
+    name                          = "frontend-ip-config"
+    public_ip_address_id          = azurerm_public_ip.appgw_pip.id
   }
 
   backend_address_pool {
